@@ -19,7 +19,7 @@ class App extends Component {
         aufgabe: "Buch lesen",
       },
       {
-        name: "Tim",
+        name: "Nina",
         aufgabe: "Staubsaugen",
       },
     ],

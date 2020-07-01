@@ -38,7 +38,7 @@ class Form extends Component {
           value={name}
           onChange={this.handleChange}
         />
-        <label for="aufgabe">aufgabe</label>
+        <label for="aufgabe">Aufgabe</label>
         <input
           type="text"
           name="aufgabe"
@@ -46,7 +46,7 @@ class Form extends Component {
           value={aufgabe}
           onChange={this.handleChange}
         />
-        <input type="button" value="Submit" onClick={this.submitForm} />
+        <input type="button" value="Neuen Listeneintrag absenden" onClick={this.submitForm} />
       </form>
     );
   }
